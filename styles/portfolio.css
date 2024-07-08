@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -17,7 +21,9 @@
 .dark-2{
     color: #474747;
 }
-
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
     background-color: #FD6E0A;
     padding: 18px 35px;
@@ -63,6 +69,7 @@ nav ul{
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 
 }
 
@@ -91,4 +98,97 @@ nav ul{
 
     width: 580px;
 }
+/* about section styles */
+.about-container{
+    background-color: #FFF8F3;
+    max-width:1140px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    margin-bottom: 200px;
+    padding-top: 130px ;
+    padding-bottom: 130px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.about-details{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about{
+    width: 827px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.about-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
 
+}
+.about-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+/* skills styles */
+.skill-container{
+    margin-top: 220px;
+    margin-bottom: 220px;
+    margin-left: 200px;
+    margin-right: 210px;
+    
+    
+}
+
+.skill-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-icons{
+    border-radius: 5px;
+    width: 260px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 30px 30px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+}
+
+.skill-description{
+    color: #757575;
+    margin-bottom: 50px;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.skill-heading{
+    font-size:35px ;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+   
+.skill-img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+    
+}        
