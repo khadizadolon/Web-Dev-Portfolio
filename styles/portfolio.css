@@ -34,13 +34,23 @@
     border: none;
 }
 
+.outline-btn{
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* navbar style  */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
-
+    padding-top: 50px;
 }
 
 .nav-title{
@@ -77,6 +87,7 @@ nav ul{
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 35px 0 200px;
 }
 
@@ -92,6 +103,10 @@ nav ul{
 .banner-title{
     font-size: 85px;
     font-weight: bold;
+}
+
+.banner-description{
+    margin-bottom: 30px;
 }
 
 .banner-profile-pic{
@@ -191,4 +206,93 @@ nav ul{
     height: 44px;
     margin-bottom: 30px;
     
-}        
+}    
+    /* resume style */
+.resume-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    width: 1083px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resume-section{
+    margin-bottom: 110px;
+}
+.resume-details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.education-description{
+    color: #757575;
+    font-size: 16px;
+    width: 510px;
+}
+.resume-subtitle{
+    color: #757575;
+    margin-bottom: 10px;
+
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-column-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-button{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.footer{
+    padding: 130px;
+    background-color: #FFF8F3;
+    
+}
+.footer-container{
+    display: flex;
+    width: 1140px;
+   /* justify-content: space-between; */
+   margin-left: auto;
+   margin-right: auto;
+}
+.footer-form{
+    width: 50%;
+}
+.footer-description{
+    width: 50%;
+}
+.name-input{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px ;
+    border-radius: 5px;
+    border: none;
+}
+.Massage-input{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.description{
+    width: 560px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
